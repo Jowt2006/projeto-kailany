@@ -20,14 +20,14 @@ function toggleMode() {
     img.setAttribute('src', './assets/avatar-light.png');
     img.setAttribute(
       'alt',
-      'Foto de João Victor sorrindo, com filtro corado, usando óculos em uma fundo branco'
+      'Foto de Kailany sorrindo, num espelho com um celular vermelho'
     );
   } else {
     // Se tiver sem ligh mode, manter a imagem padrão
     img.setAttribute('src', './assets/avatar-dark.png');
     img.setAttribute(
       'alt',
-      'Foto de João Victor sorrindo, usando óculos em uma fundo branco'
+      'Foto de Kailany, num espelho com um celular vermelho'
     );
   }
 }
